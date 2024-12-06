@@ -9,10 +9,10 @@ const Navbar = (props: Props) => {
         <nav className='flex flex-row justify-evenly text-black border-b-2 md:max-2xl:pt-10'>
 
             <div className='flex flex-row'>
-                <div className='md:max-2xl:p-2 h-auto w-auto'>
-                    <Image src={Logo} alt='Logo' height={45} width={45} />
+                <div className='md:max-2xl:pt-6 h-auto w-auto'>
+                    <Image src={Logo} alt='Logo' height={25} width={25} />
                 </div>
-                <div className='md:max-2xl:text-3xl font-extrabold md:max-2xl:mt-1'>
+                <div className='font-extrabold md:max-2xl:mt-5'>
                     Nuvante
                 </div>
             </div>
